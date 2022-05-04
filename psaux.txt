@@ -1,0 +1,97 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.4 159500  8732 ?        Ss   Mar22   0:01 /sbin/init noibrs splash
+root         2  0.0  0.0      0     0 ?        S    Mar22   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   Mar22   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Mar22   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    Mar22   0:30 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    Mar22   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Mar22   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Mar22   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Mar22   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    Mar22   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    Mar22   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    Mar22   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    Mar22   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    Mar22   0:00 [kdevtmpfs]
+root        20  0.0  0.0      0     0 ?        I<   Mar22   0:00 [netns]
+root        21  0.0  0.0      0     0 ?        S    Mar22   0:00 [rcu_tasks_kthre]
+root        22  0.0  0.0      0     0 ?        S    Mar22   0:00 [kauditd]
+root        23  0.0  0.0      0     0 ?        I    Mar22   0:01 [kworker/0:1]
+root        24  0.0  0.0      0     0 ?        I    Mar22   0:00 [kworker/1:1]
+root        25  0.0  0.0      0     0 ?        S    Mar22   0:00 [khungtaskd]
+root        26  0.0  0.0      0     0 ?        S    Mar22   0:00 [oom_reaper]
+root        27  0.0  0.0      0     0 ?        I<   Mar22   0:00 [writeback]
+root        28  0.0  0.0      0     0 ?        S    Mar22   0:00 [kcompactd0]
+root        29  0.0  0.0      0     0 ?        SN   Mar22   0:00 [ksmd]
+root        30  0.0  0.0      0     0 ?        SN   Mar22   0:00 [khugepaged]
+root        31  0.0  0.0      0     0 ?        I<   Mar22   0:00 [crypto]
+root        32  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kintegrityd]
+root        33  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kblockd]
+root        34  0.0  0.0      0     0 ?        I<   Mar22   0:00 [ata_sff]
+root        35  0.0  0.0      0     0 ?        I<   Mar22   0:00 [md]
+root        36  0.0  0.0      0     0 ?        I<   Mar22   0:00 [edac-poller]
+root        37  0.0  0.0      0     0 ?        I<   Mar22   0:00 [devfreq_wq]
+root        38  0.0  0.0      0     0 ?        I<   Mar22   0:00 [watchdogd]
+root        41  0.0  0.0      0     0 ?        S    Mar22   0:00 [kswapd0]
+root        42  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kworker/u5:0]
+root        43  0.0  0.0      0     0 ?        S    Mar22   0:00 [ecryptfs-kthrea]
+root        85  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kthrotld]
+root        86  0.0  0.0      0     0 ?        I<   Mar22   0:00 [acpi_thermal_pm]
+root        87  0.0  0.0      0     0 ?        S    Mar22   0:00 [scsi_eh_0]
+root        88  0.0  0.0      0     0 ?        I<   Mar22   0:00 [scsi_tmf_0]
+root        89  0.0  0.0      0     0 ?        S    Mar22   0:00 [scsi_eh_1]
+root        90  0.0  0.0      0     0 ?        I<   Mar22   0:00 [scsi_tmf_1]
+root        96  0.0  0.0      0     0 ?        I<   Mar22   0:00 [ipv6_addrconf]
+root       106  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kstrp]
+root       123  0.0  0.0      0     0 ?        I<   Mar22   0:00 [charger_manager]
+root       179  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kworker/0:1H]
+root       181  0.0  0.0      0     0 ?        S    Mar22   0:01 [jbd2/vda1-8]
+root       182  0.0  0.0      0     0 ?        I<   Mar22   0:00 [ext4-rsv-conver]
+root       233  0.0  1.4 101100 28992 ?        S<s  Mar22   0:00 /lib/systemd/systemd-journald
+root       253  0.0  0.0      0     0 ?        I<   Mar22   0:00 [kworker/1:1H]
+root       256  0.0  0.2  34808  4876 ?        Ss   Mar22   0:00 /lib/systemd/systemd-udevd
+root       383  0.0  0.0      0     0 ?        I<   Mar22   0:00 [ttm_swap]
+message+   490  0.0  0.2  50044  4376 ?        Ss   Mar22   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       500  0.0  0.1  31328  3268 ?        Ss   Mar22   0:00 /usr/sbin/cron -f
+root       503  0.0  0.3  70448  5820 ?        Ss   Mar22   0:00 /lib/systemd/systemd-logind
+root       505  0.0  0.3 287528  6812 ?        Ssl  Mar22   0:01 /usr/lib/accountsservice/accounts-daemon
+syslog     506  0.0  0.2 263044  4284 ?        Ssl  Mar22   0:00 /usr/sbin/rsyslogd -n
+daemon     510  0.0  0.1  28340  2456 ?        Ss   Mar22   0:00 /usr/sbin/atd -f
+_chrony    538  0.0  0.1 105548  2900 ?        S    Mar22   0:00 /usr/sbin/chronyd
+root       543  0.0  0.1  17808  2632 ?        Ssl  Mar22   0:21 /usr/local/share/assist-daemon/assist_daemon
+root       568  0.0  0.8 170388 17332 ?        Ssl  Mar22   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       621  0.0  1.0 187236 19960 ?        Ssl  Mar22   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       624  0.0  0.1  15964  2344 ttyS0    Ss+  Mar22   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root       630  0.0  0.1  78640  3616 tty1     Ss   Mar22   0:00 /bin/login -p --
+root       646  0.0  0.3  72308  6416 ?        Ss   Mar22   0:00 /usr/sbin/sshd -D
+root       719  0.0  0.2  43028  5148 ?        Ssl  Mar22   1:12 /usr/local/aegis/aegis_update/AliYunDunUpdate
+root       811  2.2  1.1 142088 22312 ?        S<sl Mar22  36:12 /usr/local/aegis/aegis_client/aegis_11_19/AliYunDun
+root       887  0.0  0.3  76532  6592 ?        Ss   Mar22   0:00 /lib/systemd/systemd --user
+root       888  0.0  0.1 109256  2228 ?        S    Mar22   0:00 (sd-pam)
+root       898  0.0  0.2  22656  5320 tty1     S+   Mar22   0:00 -bash
+systemd+   962  0.0  0.2  70628  4872 ?        Ss   Mar22   0:02 /lib/systemd/systemd-resolved
+root       994  0.0  0.0  25992  1268 ?        Ss   Mar22   0:00 dhclient
+root      1087  0.0  0.1  25992  3328 ?        Ss   Mar22   0:00 dhclient
+root      1147  0.0  0.6 805868 12536 ?        Ssl  Mar22   1:33 /usr/local/share/aliyun-assist/2.2.3.256/aliyun-service
+systemd+  1199  0.0  0.2  79920  5072 ?        Ss   Mar22   0:00 /lib/systemd/systemd-networkd
+root     14015  0.0  0.0   4636   832 ?        S    21:54   0:00 sh /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /root/.vscode-server/.c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1.token
+root     14025  0.2  4.0 941492 79120 ?        Sl   21:54   0:09 /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/node /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /root/.vscode-server/.c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1.token
+root     14063  0.1  2.5 996144 49112 ?        Sl   21:54   0:08 /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/node /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/out/bootstrap-fork --type=ptyHost
+root     14206  0.0  0.2  21612  3992 pts/3    Ss+  21:54   0:00 /bin/bash
+root     14464  0.0  0.0      0     0 ?        I    22:03   0:00 [kworker/0:2]
+root     14465  0.0  0.2  21612  4084 pts/4    Ss   22:04   0:00 /bin/bash
+root     15169  0.0  2.2 100028 42632 pts/4    S+   22:10   0:01 gdb loopfork
+root     15811  0.0  0.0      0     0 ?        I    22:35   0:00 [kworker/1:0]
+root     15824  0.0  0.0      0     0 ?        I    22:51   0:00 [kworker/u4:0]
+root     15835  0.1  0.3 108288  7276 ?        Ss   22:55   0:00 sshd: root@notty
+root     15856  0.0  0.1  13024  3544 ?        Ss   22:55   0:00 bash
+root     15908  2.9  6.9 1001052 134888 ?      Sl   22:55   0:18 /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/node /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+root     15919  0.0  1.7 840392 33536 ?        Sl   22:55   0:00 /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/node /root/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/out/bootstrap-fork --type=fileWatcher
+root     15954  0.6  2.3 1192888 46260 ?       Sl   22:55   0:04 /root/.vscode-server/extensions/ms-vscode.cpptools-1.9.6/bin/cpptools
+root     16063  0.0  0.8 4821972 17120 ?       Sl   22:57   0:00 /root/.vscode-server/extensions/ms-vscode.cpptools-1.9.6/bin/cpptools-srv 15954 {A7A04567-6A1B-4663-A2EF-561E703610F6}
+root     16076  0.3  1.6 4821840 32704 ?       Sl   22:57   0:01 /root/.vscode-server/extensions/ms-vscode.cpptools-1.9.6/bin/cpptools-srv 15954 {8A83642D-6A45-4597-B6D6-82A4F06DB1C7}
+root     16115  0.0  0.0      0     0 ?        I    23:00   0:00 [kworker/u4:1]
+root     16518  0.0  0.0   7476   828 ?        S    23:04   0:00 sleep 180
+root     16580  0.0  0.1  39672  3512 pts/3    R    23:05   0:00 ps -aux

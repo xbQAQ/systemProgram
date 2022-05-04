@@ -1,0 +1,14 @@
+Undefined command: "ls".  Try "help".
+25	rror!\n");
+26	        }
+27	        struct dirent* pdp;
+28	        while(pdp = readdir(dp)){
+29	            if((strcmp(pdp->d_name, ".") == 0) || (strcmp(pdp->d_name, "..") == 0))
+30	                continue;
+31	            
+32	            if(strlen(path) + strlen(pdp->d_name) + 2 > 256){
+33	                break;
+34	            }
+Undefined command: "watchpoint".  Try "help".
+Undefined command: "watchpoint".  Try "help".
+Undefined command: "watchpoint".  Try "help".
